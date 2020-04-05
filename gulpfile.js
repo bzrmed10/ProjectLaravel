@@ -13,8 +13,10 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
 
-
-    mix.sass('app.scss')
+    mix.autoload({
+        jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"]
+    })
+    .sass('app.scss')
     
     
         .styles([
