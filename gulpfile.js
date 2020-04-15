@@ -12,11 +12,7 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-
-    mix.autoload({
-        jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"]
-    })
-    .sass('app.scss')
+    mix.sass('app.scss')
     
     
         .styles([
@@ -33,7 +29,7 @@ elixir(function(mix) {
 
         .scripts([
             'libs/jquery.js',
-            'libs/bootstarp.js',
+            // 'libs/bootstarp.js',
             'libs/bootstrap.min.js',
             'libs/metisMenu.js',
             'libs/sb-admin-2.js',

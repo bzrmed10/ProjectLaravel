@@ -5,7 +5,7 @@
 
 
     <p class="bg-danger">{{ session('deleted_post')}}</p>
-    <table class="table table-striped table-bordered">
+    <table class="table">
         <thead>
           <tr>
             <th scope="col">ID</th>
@@ -16,7 +16,8 @@
             <th scope="col">Body</th>
             <th scope="col">Created</th>
             <th scope="col">Updated</th>
-            <th scope="col">Action</th>
+            {{-- <th scope="col">Post</th>
+            <th scope="col">Action</th> --}}
           </tr>
         </thead>
         <tbody>
@@ -32,6 +33,8 @@
                 <td>{{str_limit($post->body, 15)}}</td>               
                 <td>{{$post->created_at->diffForHumans()}}</td>
                 <td>{{$post->updated_at->diffForHumans()}}</td>
+                <td><a href="{{route('home.post',$post->id)}}">View post</a> </td>
+                <td><a href="{{route('admin.comments.show',$post->id)}}">View Comments</a> </td>
                 <td>
                   {!! Form::open(['methode'=>'POST','action'=>['AdminPostsController@destroy',$post->id]]) !!}
                   {{ method_field('DELETE')}}

@@ -1,9 +1,12 @@
 #admin-page {
   padding-top: 0px; }
 
-/*# sourceMappingURL=app.css.map */
 .navbar-top-links .dropdown-user {
   right: 0;
   left: auto;
-  height: 107px;
-}
+  height: 108PX; }
+
+.rely-form {
+  display: none; }
+
+/*# sourceMappingURL=app.css.map */
