@@ -83,6 +83,11 @@
 
 @endif
 
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-5">
+    {{$comments->render()}}
+  </div>
+</div>
 
 
 
