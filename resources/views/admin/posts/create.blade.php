@@ -1,5 +1,6 @@
 @extends('layouts.admin')
 
+
 @section('content')
     <h1>Create Posts</h1>
 
@@ -31,4 +32,9 @@
 
 
     @include('includes.form-err')
+@endsection
+@section('scripts')
+
+@include('includes.tinyeditor')
+
 @endsection

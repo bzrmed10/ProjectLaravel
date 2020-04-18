@@ -48,3 +48,9 @@
 
     @include('includes.form-err')
 @endsection
+
+@section('scripts')
+
+@include('includes.tinyeditor')
+
+@endsection
