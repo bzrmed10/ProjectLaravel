@@ -1,12 +1,15 @@
 #admin-page {
-  padding-top: 0px; }
+  padding-top: 0px;
+}
 
 .navbar-top-links .dropdown-user {
   right: 0;
   left: auto;
-  height: 108PX; }
+  height: 108PX;
+}
 
 .rely-form {
-  display: none; }
+  display: none;
+}
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXGNvZGVoYWNraW5nXFxyZXNvdXJjZXNcXGFzc2V0c1xcc2Fzc1xcYXBwLnNjc3MiLCJzb3VyY2VzIjpbIi94YW1wcC9odGRvY3MvY29kZWhhY2tpbmcvcmVzb3VyY2VzL2Fzc2V0cy9zYXNzL2FwcC5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEBpbXBvcnQgXCJub2RlX21vZHVsZXMvYm9vdHN0cmFwLXNhc3MvYXNzZXRzL3N0eWxlc2hlZXRzL2Jvb3RzdHJhcFwiO1xuI2FkbWluLXBhZ2V7XG4gICAgcGFkZGluZy10b3A6IDBweDtcbn1cbi5uYXZiYXItdG9wLWxpbmtzIC5kcm9wZG93bi11c2VyIHtcbiAgICByaWdodDogMDtcbiAgICBsZWZ0OiBhdXRvO1xuICAgIGhlaWdodDogMTA4UFg7XG59XG5cbi5yZWx5LWZvcm17XG4gICAgZGlzcGxheTogbm9uZTtcbn1cbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxBQUFBLFdBQVcsQ0FBQTtFQUNQLFdBQVcsRUFBRSxHQUFHO0NBQ25COztBQUNELEFBQUEsaUJBQWlCLENBQUMsY0FBYyxDQUFDO0VBQzdCLEtBQUssRUFBRSxDQUFDO0VBQ1IsSUFBSSxFQUFFLElBQUk7RUFDVixNQUFNLEVBQUUsS0FBSztDQUNoQjs7QUFFRCxBQUFBLFVBQVUsQ0FBQTtFQUNOLE9BQU8sRUFBRSxJQUFJO0NBQ2hCIn0= */
