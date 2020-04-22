@@ -42,16 +42,26 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
+
+
+                    @auth
                     <li>
-                        <a href="#">About</a>
+                        <a href="/admin">Admin</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="/logout">Logout</a>
+                    </li>
+                    @endauth
+                   
+                    @guest
+                    <li>
+                        <a href="/login">Login</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="/register">Register</a>
                     </li>
+                    @endguest
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
